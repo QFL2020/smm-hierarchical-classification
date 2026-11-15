@@ -63,4 +63,4 @@ For the selected-cohort implementation, see `selected_cohort/README.md`. Neither
 
 Packaging changes comprise portable file locations, removal of credentials/external tracking, extraction of the used neural dependencies, removal of standalone demos and annotations. Scientific specifications were retained. Static syntax/configuration checks and a CLI/import check were performed; no predictive model was fitted or evaluated when preparing this package. End-to-end numerical equivalence of the portable package has not been tested.
 
-No license has been assigned pending author confirmation. Public visibility does not itself grant an open-source license. Review institutional rights and third-party dependencies before assigning one.
+No license has been assigned.
