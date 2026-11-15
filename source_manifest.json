@@ -1,0 +1,356 @@
+[
+  {
+    "release_file": "selected_cohort/train_model.py",
+    "source_file": "code/train_model.py",
+    "source_sha256": "6f59a89e47e7bcd9cfff31c05e80f595510ae116eb4a5f4685718748bbd0c2f5",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/dataset/data_processing.py",
+    "source_file": "code/dataset/data_processing.py",
+    "source_sha256": "c01cd2fdeb31c11b9a68304211b86b93905e1c48a035c2dfd721a4c6fd6bfef0",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/dataset/get_dataset_from_config.py",
+    "source_file": "code/dataset/get_dataset_from_config.py",
+    "source_sha256": "a199363b8befe0e0057505e2a2ca3218fabfc1dd034f445dc6332a9cfd790e29",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/dataset/sampler.py",
+    "source_file": "code/dataset/sampler.py",
+    "source_sha256": "fc58278762176d7ec9d1b1003dde48ed95c74937b2d674cdafce16c463913c21",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/dataset/selected_features.py",
+    "source_file": "code/dataset/selected_features.py",
+    "source_sha256": "a0aff983518328d78b20efbc9927158bb6d6a864b8cad48ce332f7ccfb086907",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/AutoEncoder.py",
+    "source_file": "code/models/AutoEncoder.py",
+    "source_sha256": "68b5634057556529f2bc9b09fc8099b26d251e4710bb96c66f5452f08f72d765",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/base.py",
+    "source_file": "code/models/base.py",
+    "source_sha256": "a5094c28a829a408ab6c00b93a588d22e5c129500788a3f68b1c6d0de37ce090",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/DCN.py",
+    "source_file": "code/models/DCN.py",
+    "source_sha256": "97108c984ec2b34c4289a55e2c480847a9504b14fa5907fea924a8334043e6da",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/NN.py",
+    "source_file": "code/models/NN.py",
+    "source_sha256": "adaa978f60ecc9ba81bc170eb36bf6df4440b1529b0b9c96bc1c55816b044915",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/settings/config.py",
+    "source_file": "code/settings/config.py",
+    "source_sha256": "2464fd73d6344d99e81d985f95b8362dfc74f111952916a298dbda74c56bdb1f",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/utils/early_stopping.py",
+    "source_file": "code/utils/early_stopping.py",
+    "source_sha256": "b95ae7ace614630c03c2deb44d64f1452859ac46b762672aab8b08997eac4b0e",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/utils/eval.py",
+    "source_file": "code/utils/eval.py",
+    "source_sha256": "087c9b0c68b8f97d7c2e7ffcd2fd11796611c7f0aca88c3653697a2f448767ea",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/utils/figure_plot.py",
+    "source_file": "code/utils/figure_plot.py",
+    "source_sha256": "b40ce32f1344013953448b94955766ff41b5a771f3b9550c1b186afe0ee2956c",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/utils/misc.py",
+    "source_file": "code/utils/misc.py",
+    "source_sha256": "7e21bdbc418460899c278df466acfa5d552b3233b6c62a7b6f09d0b4c65310d7",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/utils/training_utils.py",
+    "source_file": "code/utils/training_utils.py",
+    "source_sha256": "e6598d58d52e52ab00f121637381792aa96ce9e7c307ea6af5cf7ae84e3acaf2",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/DynamicClustering/cls_models.py",
+    "source_file": "code/models/DynamicClustering/cls_models.py",
+    "source_sha256": "33314fb0f1aa8e0a9793441c4550cf13584799156506c9898c6653c8d66b4a20",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/DynamicClustering/dynamic_cluster.py",
+    "source_file": "code/models/DynamicClustering/dynamic_cluster.py",
+    "source_sha256": "62f101d245fb4b89aa0f9bad5226005d3b09d2a5fae42e95ca4ae0ab2e90faf1",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/DynamicClustering/model_training_zoo.py",
+    "source_file": "code/models/DynamicClustering/model_training_zoo.py",
+    "source_sha256": "e46fb496e6814036e93fbfd317dff5dc97ab30ca69182bd2071a1d69b33e5b32",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/DynamicClustering/sub_tree_classifier.py",
+    "source_file": "code/models/DynamicClustering/sub_tree_classifier.py",
+    "source_sha256": "e176824886320866a328525b55745c6248d2cba2358e8dfd82f0a9a9b4854c1f",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/HierarchicalDynamicClustering/HDC_factory.py",
+    "source_file": "code/models/HierarchicalDynamicClustering/HDC_factory.py",
+    "source_sha256": "c452bbb45ec8ab814dd6f891e14f839ed8dd067dd5cdf4c50a559d82e182b968",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/HierarchicalDynamicClustering/HDC_utils.py",
+    "source_file": "code/models/HierarchicalDynamicClustering/HDC_utils.py",
+    "source_sha256": "02bb14ed13f4b8ed1d680faab7dbefb3dd5f4b698df7591d84d794e209145ac6",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/HierarchicalDynamicClustering/train_HDC.py",
+    "source_file": "code/models/HierarchicalDynamicClustering/train_HDC.py",
+    "source_sha256": "b2d096d76ac9f90d6e435e80f117ddcc4414b932a43e840cdd55ec4c70e91135",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/Loss/loss.py",
+    "source_file": "code/models/Loss/loss.py",
+    "source_sha256": "b1daf3e000f85b63f371fa78441eea39343c2b14af35ff91e4147831c3a25ecc",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/Residual_factory/residual_block.py",
+    "source_file": "code/models/Residual_factory/residual_block.py",
+    "source_sha256": "34ffb269deb248455ddb9af2fbea39eff8c68281854d5f08c865c76accbfc4ea",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/Residual_factory/SE_Residual.py",
+    "source_file": "code/models/Residual_factory/SE_Residual.py",
+    "source_sha256": "d3f9a7ea7f3dc86baa05789de6aa6fcf1ca5431b4a837032a3f5ec58aa86872b",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/SimSiam/model_factory.py",
+    "source_file": "code/models/SimSiam/model_factory.py",
+    "source_sha256": "1e671f40c89dedef9b97751746a22b0331ebaab15131bc4aacc965ed62482605",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/SimSiam/model_zoo.py",
+    "source_file": "code/models/SimSiam/model_zoo.py",
+    "source_sha256": "661c9a662713ce8ee5f250b1c21e8c9dc16408210c7cb84b8e88bace01ae79fa",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/SimSiam/noisy_contrastive_train.py",
+    "source_file": "code/models/SimSiam/noisy_contrastive_train.py",
+    "source_sha256": "357136d70a62a0b941f97b93550c4bf8f6c46438da4015c54d32ecc2e66e27ee",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/SimSiam/noisy_tools.py",
+    "source_file": "code/models/SimSiam/noisy_tools.py",
+    "source_sha256": "15f7a23f299067fb1c02d006b66dd8acb3e986fc8336434957ea2fb4cdaebaa5",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/Tabular_model/FT_Transformer.py",
+    "source_file": "code/models/Tabular_model/FT_Transformer.py",
+    "source_sha256": "17a7db006af0cf127f1f0e1be2cb4e138edf92341bf02abe88929ac82411d474",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/Traditional_ML/ML_baselines.py",
+    "source_file": "code/models/Traditional_ML/ML_baselines.py",
+    "source_sha256": "dd48034dec8ffb37ff4d0523c0254fec8feb1e3db6e3df9d564a820ba154734c",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/models/Traditional_ML/ML_baselines_interface.py",
+    "source_file": "code/models/Traditional_ML/ML_baselines_interface.py",
+    "source_sha256": "cbc8459d622768b1dc61d4fa5d38bd7404627d1e9023b7ad3562647e7f8d970a",
+    "adaptation": "Credential removed; external tracking replaced by local no-op; standalone library demos omitted. Scientific code retained."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/AutoEncoder/AutoEncoder-config.json",
+    "source_file": "code/settings/Configurations/AutoEncoder/AutoEncoder-config.json",
+    "source_sha256": "fd300029ee980a71b254880266f047084dff7f24d0d26a9885336eddd7ae2b00",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/ContrastiveLearning/SimSiam-config.json",
+    "source_file": "code/settings/Configurations/ContrastiveLearning/SimSiam-config.json",
+    "source_sha256": "4a70c660ce7518d8f6aedb9a35634b2acbd5f4ee8f6ad672a6a1b9356bdb3927",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/DCN/DCN-config.json",
+    "source_file": "code/settings/Configurations/DCN/DCN-config.json",
+    "source_sha256": "e289b044a709846e9d6c49e285c864ef110bb76e789af3a4b3a3079cb2b7e06c",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/FT_Transformer/FT_Transformer-config.json",
+    "source_file": "code/settings/Configurations/FT_Transformer/FT_Transformer-config.json",
+    "source_sha256": "9ee4eb4f35230fb4eebb01acabceff41e11a167b8ba617fe557a2361e039913a",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/HDC/HDC-config.json",
+    "source_file": "code/settings/Configurations/HDC/HDC-config.json",
+    "source_sha256": "eb3097ee8db9e8519fbb23f35a8c60ecd18c79642edee49194a5d5bc234d9222",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/NN/NN-config-Cluster-Centroids.json",
+    "source_file": "code/settings/Configurations/NN/NN-config-Cluster-Centroids.json",
+    "source_sha256": "5172fc028a9f60ef39e97eb983a4b2f49ad4e7783290db4330836c4c5ac2a3ef",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/NN/NN-config-default.json",
+    "source_file": "code/settings/Configurations/NN/NN-config-default.json",
+    "source_sha256": "0e2b6ffa5ed360af4042972e18ef210abc7fc408d0b33264ec343cc162e16232",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/NN/NN-config-RandomOversampling.json",
+    "source_file": "code/settings/Configurations/NN/NN-config-RandomOversampling.json",
+    "source_sha256": "2b108c96df351b1d31d772aed1bbc1c8afa5d9c802588fc723f05ceb10f2d853",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/residual/residualMLP-config.json",
+    "source_file": "code/settings/Configurations/residual/residualMLP-config.json",
+    "source_sha256": "91541c4911d8a61366de8ef01a764e3bb93302bf25c80b62f240fbf3cdde4e02",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/residual/SE-residualMLP-config.json",
+    "source_file": "code/settings/Configurations/residual/SE-residualMLP-config.json",
+    "source_sha256": "ec2b2b3d3f2e54d68699f646e28f388d805bbb5003e20a5bdb8bd4b40ace280a",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/AdaBoost-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/AdaBoost-config.json",
+    "source_sha256": "c8e3a4aab33b4e97ad012696509aaf768fb1640d9351d8016e5abcaf3608b18d",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/DecisionTree-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/DecisionTree-config.json",
+    "source_sha256": "ccfe81c3af8f35add44a24e7a6a3954e1b7950a14fd0e99385f61691064498f9",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/IsolationForest-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/IsolationForest-config.json",
+    "source_sha256": "55ae49737bc31707067159470b8958dcbf14f9c7670a9bc6009e0df790b8e94a",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/LR-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/LR-config.json",
+    "source_sha256": "343067dd51071fda876b17b0ac5255155c66e3d717248efb5f9cf9f478fcb181",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/RandomForest-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/RandomForest-config.json",
+    "source_sha256": "aff7bf8a7233eaee9f56bc2d674ff65cecfb750d2a3c7ea158a7bc9fc28c95e8",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/SVM-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/SVM-config.json",
+    "source_sha256": "0964e196772791fe221f7001c6c936da48e36e9624f7c65f4dea4d039872ba31",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/settings/Configurations/Traditional_ML/XGBoost-config.json",
+    "source_file": "code/settings/Configurations/Traditional_ML/XGBoost-config.json",
+    "source_sha256": "a6de7f8979f99ea02116f2be05f6cb18dbc9aa2f1cb7e78759bdea513cfc01f1",
+    "adaptation": "Reported model/sampling configuration only."
+  },
+  {
+    "release_file": "selected_cohort/requirements.txt",
+    "source_file": "code/requirements.txt",
+    "source_sha256": "687f5d98e3e33ea5212d1a02601d0f491c958c726a24931461bbcab180b6d0be",
+    "adaptation": "Tracking dependency omitted."
+  },
+  {
+    "release_file": "sensitivity/neural_runtime.py",
+    "source_file": "hdc_ready_20261114/code/models/DynamicClustering/model_training_zoo.py",
+    "source_sha256": "954611afffe21ea70edab6ed1b6f530e2efce34bc2061bf58376671a88251ba8",
+    "adaptation": "Extract used runtime definitions; omit unused model families and training loops."
+  },
+  {
+    "release_file": "sensitivity/features.json",
+    "source_file": "code/dataset/selected_features.py",
+    "source_sha256": "a0aff983518328d78b20efbc9927158bb6d6a864b8cad48ce332f7ccfb086907",
+    "adaptation": "Exact 65 categorical / 11 continuous feature order extracted."
+  },
+  {
+    "release_file": "sensitivity/prepared_data.py",
+    "source_file": "hdc_ready_20261114/prepared_data.py",
+    "source_sha256": "5174a3abf53f107cf5b38eee100199855472f0ce2cb34f5366f35e57f159b791",
+    "adaptation": "Keep fitting-only preprocessor; omit superseded pilot partition preparation."
+  },
+  {
+    "release_file": "sensitivity/modified_hdc.py",
+    "source_file": "hdc_comparison_20261114/modified_hdc.py",
+    "source_sha256": "16d751c127a1a85d3f2a4674e30d621f0e1f2b80f652959381a73eb8b156380f",
+    "adaptation": "Final executed algorithm; portable imports/device only; no pilot HDC included."
+  },
+  {
+    "release_file": "sensitivity/protocol.json",
+    "source_file": "hdc_comparison_20261114/protocol.json",
+    "source_sha256": "9c6e9f65c5f7f4fd9b22e4836e9312483a052e52f206b1aa0ac5829dfce36ff8",
+    "adaptation": "Final scientific protocol; session clock and workstation inventory omitted."
+  },
+  {
+    "release_file": "sensitivity/single_lr.py",
+    "source_file": "audit_20261114/sensitivity.py",
+    "source_sha256": "3b6a6f067eaeddc5a66191ffefb84447936bdad7920b1b3034daf488728350a8",
+    "adaptation": "Same executed LR analysis; no audit module/vendor dependency or local path."
+  },
+  {
+    "release_file": "sensitivity/run_comparison.py",
+    "source_file": "hdc_comparison_20261114/run_comparison.py",
+    "source_sha256": "61df2531c5c516620d66f8f7639fe153e628288668b6dae44f2f2c5a22b6b2e1",
+    "adaptation": "Same folds/fits/evaluation; regenerate reserved LR split; omit workstation inventory and expired time-budget orchestrator."
+  },
+  {
+    "release_file": "sensitivity/precision_recall.py",
+    "source_file": ".rev4_work/make_figure.py",
+    "source_sha256": "96080da031769dded19a1adda886983ce0fe0b61e12858b1c3ea9006dc541996",
+    "adaptation": "Portable paths/output names; plotting and score comparisons unchanged."
+  },
+  {
+    "release_file": "sensitivity/cohort_calibration.py",
+    "source_file": "reporting_checks_20261114/assess.py",
+    "source_sha256": "a3205449c96e530f0097f722260484dc960f09b00398b7860ef0c725d84c9f3e",
+    "adaptation": "Keep reported cohort/calibration definitions; omit extra partition descriptions, clipping sensitivity and workstation inventory."
+  }
+]
