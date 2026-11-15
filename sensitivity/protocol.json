@@ -1,0 +1,82 @@
+{
+  "purpose": "Exploratory internal validation of one prespecified modified HDC after diagnostic review; not historical reconstruction or independent confirmation",
+  "scope": "Existing development patients only; prior 52295-record test set excluded from fitting and scoring",
+  "outer_folds": 3,
+  "partition_seed": 53,
+  "outer_split": "StratifiedKFold on unique patients, stratified by any SMM, then mapped to records",
+  "inner_split": "70/15/15 percent of outer-development patients for fitting/checkpoint selection/pruning-thresholds; stratified any-SMM; seeds 5300+fold and 5400+fold",
+  "preprocessing": "Existing BinaryEncoder and StandardScaler specifications, fitted only on each fold's fitting records; prepared dataset is starting point; no outcome-informed exclusions",
+  "models": [
+    "LR",
+    "RF",
+    "NN",
+    "HDC"
+  ],
+  "LR": {
+    "penalty": "l2",
+    "solver": "saga",
+    "C": 0.7,
+    "max_iter": 100000,
+    "tol": 0.0001,
+    "random_state": 53,
+    "class_weight": null
+  },
+  "RF": {
+    "n_estimators": 100,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "random_state": 53,
+    "class_weight": null,
+    "n_jobs": 4
+  },
+  "neural": {
+    "architecture": [
+      64,
+      32
+    ],
+    "max_epochs": 30,
+    "patience": 5,
+    "selection": "strict improvement in average_precision_score on checkpoint subset",
+    "batch_size": 4096,
+    "sampling": "2049 positive and 2047 negative examples per batch using supplied BalancedSampler",
+    "optimizer": "Adam",
+    "learning_rate": "0.002 * min(1,n_fitting/4096)",
+    "weight_decay": 0.0001,
+    "scheduler": "exponential gamma=0.95 per epoch",
+    "loss": "binary cross entropy",
+    "dtype": "float64",
+    "device": "cuda:0"
+  },
+  "HDC": {
+    "max_depth": 2,
+    "routing_iterations": 2,
+    "minimum_child_training_smm": 100,
+    "minimum_child_checkpoint_smm": 20,
+    "minimum_child_pruning_smm": 20,
+    "minimum_child_non_smm_each_subset": 1,
+    "routing": "random initial assignment; second iteration targets smaller absolute outcome residual from first-iteration branches, ties to left; feature-only router uses 0.5 threshold",
+    "router_epoch_selection": "AP for routing labels on a separate 10 percent patient-disjoint subset of fitting patients; no outer/checkpoint/pruning outcomes used as router training targets",
+    "routing_iteration_selection": "highest SMM AP on checkpoint subset among supported candidates; ties retain earlier iteration",
+    "child_detectors": "reuse retained branch checkpoints as parent detectors for recursive growth; no unchecked replacement",
+    "acceptance": "bottom-up completed subtree AP >= parent AP + 0.002 AND AUROC >= parent AUROC - 0.01 on pruning subset; otherwise keep parent",
+    "root": "identical saved matched NN checkpoint, reused rather than independently initialized",
+    "support_failures": "retain parent if no supported candidate; support rules are checked before fitting branches",
+    "scores": "raw ranking scores; no calibration"
+  },
+  "randomness": "single fixed seed schedule; neural role seeds deterministic from SHA256(fold,role,53); root NN/HDC identical",
+  "evaluation": {
+    "primary": "fold-specific AP and mean; paired HDC minus NN differences",
+    "secondary": [
+      "AUROC",
+      "sensitivity and PPV at pruning-derived 1% and 5% score-quantile cutoffs",
+      "actual positive rates",
+      "default 0.5 metrics"
+    ],
+    "threshold_rule": ">= quantile; report ties and achieved rates",
+    "aggregation": "unweighted mean of fold metrics; no pooling raw scores across folds",
+    "uncertainty": "200 paired patient bootstrap replicates within each outer fold, then mean fold metric differences; conditional on fitted models, not model-training variability; exploratory",
+    "execution": "finish all model fitting before computing outer-fold metrics; no adaptive specification changes or seed search"
+  },
+  "limitations": "Development data previously informed diagnostic choices; patient grouping does not test hospital transportability; no strong confirmatory superiority claim; comparisons do not isolate each simultaneous modification"
+}
