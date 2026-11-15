@@ -1,0 +1,27 @@
+{
+    "SMM_label": "SMM",
+    "dataset": [
+        "CleanedSMM",
+        "Binary_Encoder",
+        "Standard_Scaler"
+    ],
+    "Sampling_Strategy": [
+        "default"
+    ],
+    "Traditional_ML_settings": {
+        "method": "AdaBoost",
+        "return_model": true,
+        "estimators": 100,
+        "max_depth": -1
+    },
+    "seed": [53, 25, 81, 99, 50],
+    "device": "cpu",
+    "epoch": null,
+    "batch_size": null,
+    "loss_func": null,
+    "lr": null,
+    "dropout": null,
+    "NN_model": null,
+    "weight_decay": null,
+    "lr_schduler": null
+}

@@ -1,0 +1,58 @@
+{
+    "SMM_label": "SMM",
+    "dataset": [
+        "CleanedSMM",
+        "Binary_Encoder",
+        "Standard_Scaler"
+    ],
+    "Sampling_Strategy": [
+        "Balance"
+    ],
+    "Traditional_ML_settings": null,
+    "seed": 53,
+    "device": "cuda:0",
+    "epoch": 200,
+    "batch_size": 4096,
+    "loss_func": [
+        "default"
+    ],
+    "lr": -2,
+    "dropout": 0.0,
+    "NN_model": [
+        "HDC"
+    ],
+    "Dynamic_cluster_settings": {
+        "Feature_model_name": null,
+        "initialize_strategy": "random",
+        "retained_best_name": "F1-score",
+        "only_test_load_model_name": "best",
+        "load_previous": false,
+        "cluster_settings": {
+            "model_name": "MLP_CleanedSMM",
+            "model_structure": [
+                192,
+                256,
+                128,
+                64
+            ]
+        },
+        "classifier_settings": {
+            "model_name": "MLP_CleanedSMM",
+            "model_structure": [
+                192,
+                256,
+                128,
+                64
+            ]
+        }
+    },
+    "HDC_settings": {
+        "max_layer": 8,
+        "min_size": 3000
+    },
+    "weight_decay": 1e-05,
+    "lr_schduler": [
+        "none",
+        0.95
+    ]
+}

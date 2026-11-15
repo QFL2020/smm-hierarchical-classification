@@ -1,0 +1,37 @@
+{
+    "SMM_label": "SMM",
+    "dataset": [
+        "CleanedSMM",
+        "Binary_Encoder",
+        "Standard_Scaler"
+    ],
+    "Sampling_Strategy": [
+        "Balance"
+    ],
+    "seed": 53,
+    "device": "cuda:0",
+    "epoch": 200,
+    "batch_size": 4096,
+    "loss_func": [
+        "default",
+        0.7,
+        2
+    ],
+    "lr": 0.002,
+    "dropout": 0.0,
+    "NN_model": [
+        "DCN",
+        [
+            128,
+            256,
+            512
+        ],
+        3,
+        "v2"
+    ],
+    "weight_decay": 1e-05,
+    "lr_schduler": [
+        "exp",
+        0.95
+    ]
+}
